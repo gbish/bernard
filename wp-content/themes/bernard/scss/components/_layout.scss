@@ -1,0 +1,253 @@
+/*
+   _layout.scss
+   bernard
+   
+   Created by Gareth Bishop on 2012-11-12.
+   Copyright 2012 Gareth Bishop. All rights reserved.
+*/
+
+body {
+	background: #ccc;
+	@include background-image(linear-gradient(left, #999 0%, #333 50%, #999 100%));
+}
+
+body > div {
+	width: 960px;
+	margin: 0px auto;
+	background: white;
+	@include clearfix;
+}
+
+#base > header {
+	min-height: 200px;
+	background: url("../images/bernard_logo.png");
+}
+
+#base > nav {
+	background: $base_red;
+}
+
+nav {
+	@include clearfix;
+	ul {
+		list-style: none;
+		li {
+			width: 20%;
+			float: left;
+			&:first-child a {
+				border-left: 0;
+			}
+			&:last-child a {
+				border-right: 0;
+			}
+		}
+	}
+	a {
+		padding: 10px 0;
+		display: block;
+		border-right: 1px solid rgba(#fff, 0.4);
+		border-left: 1px solid rgba(#000, 0.2);
+		&:hover {
+			@include background-image(linear-gradient(top, $base_red, #BC0B0B));
+		}
+	}
+	&.webcomic-above, &.webcomic-below {
+		a {
+			display: block;
+			float: left;
+			width: 20%;
+			border: 0;
+			color: #000;
+			text-align: center;
+		}
+	}
+	&.comic_nav {
+		margin-top: $default_margin;
+		li {
+			width: 25%;
+			a {
+				background: transparent;
+				border: 0;
+			}
+		}
+	}
+}
+
+.main {
+	margin-top: $default_margin;
+	@include clearfix;
+}
+
+.single .main, .page .main {
+	margin: 0;
+}
+
+.content, .right_bar {
+	@include clearfix;
+}
+
+.right_bar {
+	float: left;
+	width: $right_bar_width;
+	margin: $default_margin 0 0 $default_margin;	
+	border-left: $default_border;
+	div {
+		padding-left: $default_margin;
+	}
+}
+
+.badges {
+	width: 100%;
+	@include clearfix;
+	.badge {
+		width: $badge_width;
+		height: 200px;
+		float: left;
+		background: $base_red;
+		margin-left: $default_margin;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
+
+.posts, .content .single-post, .single-page {
+	margin-top: $default_margin;
+	float: left;
+	width: $posts_width;
+}
+
+.posts, .single-page {
+	.post {
+		position: relative;
+		padding: $default_margin;
+		margin-top: $default_margin;
+		border-style: solid;
+		border-color: #ddd;
+		border-width: 0 0 1px 0;
+		@include background-image(linear-gradient(top, #eee, #fff));
+		&:first-child {
+			margin-top: 0;
+		}
+		header {
+			min-height: auto;
+		}
+		.comments-link {
+			position: absolute;
+			top: 0;
+			right: 0;
+			background: $base_red;
+			padding: 10px 15px;
+			&:hover {
+				background: red;
+			};
+			a {
+				color: white;
+				display: block;
+			}
+		}
+	}
+	.entry-title {
+		padding-top: 0;
+	}
+}
+
+.archive {
+	.single-page {
+		margin-top: 0;
+		.page-header {
+			padding: 0 $default_margin;
+		}
+	}
+	.right_bar {
+		margin-top: 0;
+	}
+}
+
+.singular {
+	.entry-header, .entry-content, footer .entry-meta, #comments-title {
+		width: auto;
+	}
+	.page {
+		&.hentry {
+			padding-top: 0;
+		}
+	}
+	.hentry {
+		padding: 0 15px;
+	}
+	.entry-header {
+		.entry-meta {
+			position: static;
+		}
+		.entry-title {
+			padding-top: 0;
+		}
+	}
+	.entry-content {
+		border-bottom: $default_border;
+		padding-bottom: $default_margin;
+	}
+	.entry-meta .edit-link a {
+		left: auto;
+		right: 0;
+		top: 0;
+	}
+	footer.entry-meta {
+		margin-top: 15px;
+	}
+	.single-page {
+		.hentry {
+			padding-left: $default_margin;
+		}
+	}
+}
+
+article {
+	h1 {
+		.entry-title {
+			padding-top: 0;
+		}
+	}
+	.entry-content {
+		img {
+			margin-bottom: 0;
+		}
+	}
+}
+
+#comments {
+	#comments-title {
+		padding: 0 20px 1.5em;
+	}
+}
+
+.commentlist > li {
+	&:before {
+		top: 20px;
+	}
+	&.comment {
+		padding-top: 0;
+	}
+}
+
+.webcomic {
+	.hentry {
+		.entry-content {
+			padding-top: 0;
+		}
+	}
+}
+
+#base > footer {
+	background: $base_red;
+}
+
+footer {
+	margin-top: $default_margin;
+	p {
+		padding: 30px 0;
+		font-weight: bold;
+		font-size: 90%;
+	}
+}

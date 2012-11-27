@@ -1,0 +1,346 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-23 16:11+0200\n"
+"PO-Revision-Date: 2012-10-23 16:11+0200\n"
+"Last-Translator: zos <zos@bestwebsoft.com>\n"
+"Language-Team: Naglis Jonaitis <njonaitis@gmail.com>\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gallery-plugin.php:103 gallery-plugin.php:767
+msgid ""
+"The following files \"gallery-template.php\" and \"gallery-single-template."
+"php\" were not found in the directory of your theme. Please copy them from "
+"the directory `/wp-content/plugins/gallery-plugin/template/` to the "
+"directory of your theme for the correct work of the Gallery plugin"
+msgstr ""
+"Jūsų temos aplanke nėra failų \"gallery-template.php\" bei \"gallery-single-"
+"template.php\". Jei norite, kad galerijos įskiepis tinkamai veiktų, prašome "
+"nukopijuoti juos iš `/wp-content/plugins/gallery-plugin/template/` aplanko į "
+"savo temos aplanką."
+
+#: gallery-plugin.php:127 gallery-plugin.php:137
+msgid "Galleries"
+msgstr "Galerijos"
+
+#: gallery-plugin.php:128 gallery-plugin.php:657
+msgid "Gallery"
+msgstr "Galerija"
+
+#: gallery-plugin.php:129
+msgid "Add New"
+msgstr "Pridėti naują"
+
+#: gallery-plugin.php:130
+msgid "Add New Gallery"
+msgstr "Pridėti naują galeriją"
+
+#: gallery-plugin.php:131
+msgid "Edit Gallery"
+msgstr "Redaguoti galeriją"
+
+#: gallery-plugin.php:132
+msgid "New Gallery"
+msgstr "Nauja galerija"
+
+#: gallery-plugin.php:133
+msgid "View Gallery"
+msgstr "Peržiūrėti galeriją"
+
+#: gallery-plugin.php:134
+msgid "Search Galleries"
+msgstr "Ieškoti galerijose"
+
+#: gallery-plugin.php:135
+msgid "No Galleries found"
+msgstr "Galerijų nėra"
+
+#: gallery-plugin.php:192
+msgid "Upload File"
+msgstr "Įkelti failą"
+
+#: gallery-plugin.php:193
+msgid "Gallery Shortcode"
+msgstr "Galerijos trumpasis kodas"
+
+#: gallery-plugin.php:209
+msgid ""
+"The gallery temp directory (gallery-plugin/upload/files) not writeable by "
+"your webserver. Please use the standard WP functional to upload the images "
+"(media library)"
+msgstr ""
+"Serveriui nesuteikta rašymo teisių į galerijos laikinąjį aplanką (gallery-"
+"plugin/upload/files). Prašome naudoti numatytąsias WordPress funkcijas "
+"paveikslėliams įkelti (failų galerija)"
+
+#: gallery-plugin.php:213
+msgid "Choose an image to upload:"
+msgstr "Pasirinkite paveikslėlį įkėlimui:"
+
+#: gallery-plugin.php:218
+msgid "Please enable JavaScript to use the file uploader."
+msgstr "Prašome įjungti JavaScript jei norite naudotis failų įkėlikliu."
+
+#: gallery-plugin.php:225
+msgid "Allow download link for images in this gallery"
+msgstr ""
+
+#: gallery-plugin.php:226
+msgid ""
+"Please use drag and drop function to change the order of the output of "
+"images and do not forget to save post."
+msgstr ""
+
+#: gallery-plugin.php:228
+msgid "Please do not forget to select "
+msgstr ""
+
+#: gallery-plugin.php:228 gallery-plugin.php:818
+msgid "Attachments order by"
+msgstr "Prisegtukus rikiuoti pagal"
+
+#: gallery-plugin.php:228
+msgid "attachments order"
+msgstr ""
+
+#: gallery-plugin.php:228
+msgid "in the settings of the plugin (page "
+msgstr ""
+
+#: gallery-plugin.php:276
+msgid "Link URL"
+msgstr ""
+
+#: gallery-plugin.php:276
+msgid "(clicking on image <br /> open the link in new window)"
+msgstr ""
+
+#: gallery-plugin.php:277
+msgid "Delete"
+msgstr ""
+
+#: gallery-plugin.php:291
+msgid ""
+"You can add the Single Gallery on the page or in the post by inserting this "
+"shortcode in the content"
+msgstr ""
+"Galite įterpti galeriją puslapyje ar įraše įterpdami šį trumpąjį kodą į "
+"turinį"
+
+#: gallery-plugin.php:293
+msgid ""
+"If you want to take a brief display of the gallery with a link to a Single "
+"Sallery Page"
+msgstr ""
+
+#: gallery-plugin.php:475
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: gallery-plugin.php:476
+msgid "Author"
+msgstr "Autorius"
+
+#: gallery-plugin.php:477
+msgid "Photo's"
+msgstr "Nuotraukos"
+
+#: gallery-plugin.php:478
+msgid "Public"
+msgstr "Vieša"
+
+#: gallery-plugin.php:479
+msgid "Date"
+msgstr "Data"
+
+#: gallery-plugin.php:626
+msgid "Activated plugins"
+msgstr "Įjungti įskiepiai"
+
+#: gallery-plugin.php:628 gallery-plugin.php:636 gallery-plugin.php:644
+msgid "Read more"
+msgstr "Skaityti daugiau"
+
+#: gallery-plugin.php:628 gallery-plugin.php:873 gallery-plugin.php:888
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: gallery-plugin.php:634
+msgid "Installed plugins"
+msgstr "Įdiegti įskiepiai"
+
+#: gallery-plugin.php:642
+msgid "Recommended plugins"
+msgstr "Rekomenduojami įskiepiai"
+
+#: gallery-plugin.php:644
+msgid "Download"
+msgstr "Atsisiųsti"
+
+#: gallery-plugin.php:644
+#, php-format
+msgid "Install %s"
+msgstr "Įdiegti %s"
+
+#: gallery-plugin.php:644
+msgid "Install now from wordpress.org"
+msgstr "Įdiegti tiesiai iš wordpress.org"
+
+#: gallery-plugin.php:646
+msgid ""
+"If you have any questions, please contact us via plugin@bestwebsoft.com or "
+"fill in our contact form on our site"
+msgstr ""
+"Jei turite klausimų, susisiekite su mumis adresu plugin@bestwebsoft.com, "
+"arba užpildykite susisiekimo formą mūsų tinklalapyje"
+
+#: gallery-plugin.php:681
+msgid "See photo &raquo;"
+msgstr "Peržiūrėti nuotrauką &raquo;"
+
+#: gallery-plugin.php:760
+msgid "Options saved."
+msgstr "Pasirinktys išsaugotos."
+
+#: gallery-plugin.php:774
+msgid "Gallery Options"
+msgstr "Galerijų pasirinktys"
+
+#: gallery-plugin.php:777
+msgid ""
+"If you would like to add a Single Gallery to your page or post, just copy "
+"and put this shortcode onto your post or page content:"
+msgstr ""
+"Jei norite įterpti galeriją į savo įrašą ar puslapį, tiesiog nukopijuokite "
+"šį trumpąjį kodą į savo įrašo ar puslapio turinį:"
+
+#: gallery-plugin.php:781
+msgid "The size of the cover album for gallery"
+msgstr "Galerijos viršelio matmenys"
+
+#: gallery-plugin.php:783 gallery-plugin.php:791
+msgid "Image size name"
+msgstr "Paveikslėlio matmenų klasės vardas"
+
+#: gallery-plugin.php:784 gallery-plugin.php:792
+msgid "Width (in px)"
+msgstr "Plotis (pikseliais)"
+
+#: gallery-plugin.php:785 gallery-plugin.php:793
+msgid "Height (in px)"
+msgstr "Aukštis (pikseliais)"
+
+#: gallery-plugin.php:789
+msgid "Size for gallery image"
+msgstr "Galerijos paveikslėlio matmenys"
+
+#: gallery-plugin.php:797
+msgid ""
+"WordPress will create a copy of the post thumbnail with the specified "
+"dimensions when you upload a new photo."
+msgstr ""
+"WordPress sukurs įrašo nurodytų matmenų miniatiūros kopiją kai įkelsite "
+"naują paveikslėlį."
+
+#: gallery-plugin.php:800
+msgid "Count images in row"
+msgstr "Paveikslėlių eilėje kiekis"
+
+#: gallery-plugin.php:806
+msgid "Start slideshow"
+msgstr "Pradėti demonstraciją"
+
+#: gallery-plugin.php:812
+msgid "Slideshow interval"
+msgstr "Demonstracijos trukmė"
+
+#: gallery-plugin.php:820
+msgid "attachment id"
+msgstr "prisegtuko ID"
+
+#: gallery-plugin.php:821
+msgid "attachment title"
+msgstr "prisegtuko pavadinimą"
+
+#: gallery-plugin.php:822
+msgid "date"
+msgstr "datą"
+
+#: gallery-plugin.php:823
+msgid ""
+"attachments order (the integer fields in the Insert / Upload Media Gallery "
+"dialog )"
+msgstr "prisegtukų tvarką (sveikojo skaičiaus laukelis „Įkelti failą“ dialoge)"
+
+#: gallery-plugin.php:824
+msgid "random"
+msgstr "atsitiktine tvarka"
+
+#: gallery-plugin.php:828
+msgid "Attachments order"
+msgstr "Prisegtukų išdėstymas"
+
+#: gallery-plugin.php:830
+msgid "ASC (ascending order from lowest to highest values - 1, 2, 3; a, b, c)"
+msgstr ""
+"Didėjančia tvarka (nuo žemiausios iki aukščiausios reikšmės - 1, 2, 3; a, b, "
+"c)"
+
+#: gallery-plugin.php:831
+msgid ""
+"DESC (descending order from highest to lowest values - 3, 2, 1; c, b, a)"
+msgstr ""
+"Mažėjančia tvarka (nuo žemiausios iki aukščiausios reikšmės - 3, 2, 1; c, b, "
+"a)"
+
+#: gallery-plugin.php:835
+msgid "Display Return link"
+msgstr "Rodyti Sugrįžimo nuorodą"
+
+#: gallery-plugin.php:841
+msgid "Display Return link in shortcode"
+msgstr "Rodyti Sugrįžimo nuorodą naudojantis trumpuoju kodu"
+
+#: gallery-plugin.php:847
+msgid "Label for Return link"
+msgstr "Sugrįžimo nuorodos tekstas"
+
+#: gallery-plugin.php:853
+msgid "Label for Read More link"
+msgstr ""
+
+#: gallery-plugin.php:861
+msgid "Save Changes"
+msgstr "Išsaugoti pakeitimus"
+
+#: gallery-plugin.php:874
+msgid "FAQ"
+msgstr "D. U. K."
+
+#: gallery-plugin.php:875
+msgid "Support"
+msgstr "Palaikymas"
+
+#: gallery-plugin.php:1045 template/gallery-single-template.php:68
+msgid "Sorry - nothing to found."
+msgstr "Deja, nieko nerasta."
+
+#: gallery-plugin.php:1064 template/gallery-single-template.php:90
+msgid "Download High resolution image"
+msgstr ""
+
+#: template/gallery-single-template.php:90
+msgid "Image "
+msgstr "Paveikslėlis"
+
+#~ msgid "Size for gallery album cover"
+#~ msgstr "Размер для "

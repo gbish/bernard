@@ -1,0 +1,78 @@
+/*
+   _typography.scss
+   bernard
+   
+   Created by Gareth Bishop on 2012-11-12.
+   Copyright 2012 Gareth Bishop. All rights reserved.
+*/
+
+html * {
+	font-family: $fonts;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 24px;
+	color: $base_red;
+	a:hover {
+		color: red;
+	}
+}
+
+nav {
+	li {
+		text-align: center;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		&:hover {
+			color: white;
+		}
+	}
+	&.comic_nav {
+		a {
+			color: $base_red;
+		}
+	}
+}
+
+a, .entry-title, .entry-title a {
+	color: $base_red;
+	text-decoration: none;
+	&:hover {
+		color: red;
+	}
+}
+
+.entry-header {
+	.entry-title {
+		&:hover {
+			color: inherit;
+		}
+	}
+}
+
+a, .widget a {
+	&:active, &:focus, &:hover {
+		text-decoration: none;
+	}
+}
+
+footer {
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	font-size: 90%;
+	&.comment-meta {
+		text-align: left;
+	}
+}
